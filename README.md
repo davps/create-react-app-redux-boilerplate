@@ -2,7 +2,7 @@
 
 Boilerplate code to quickly setup a project.
 
-It is ready to use with TDD with the basic setup for unit, integratio and end to end tests.
+It is ready to use with TDD with the basic setup for unit, integration and end to end tests.
 
 |            | Status                                                                                                                                                                                                       |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -69,7 +69,7 @@ Ensure requirements are met, then execute the following in a terminal.
 
 ```
   git init
-  git remote add origin https://github.com/davps/create-react-app-redux-boilerplate.git
+  git remote add origin https://github.com/davps/$REPOSITORY_NAME.git
 ```
 
 - Replace `create-react-app-redux-boilerplate` with `$REPOSITORY_NAME` and `davps` with `$YOUR_GITHUB_USERNAME` on `package.json`
