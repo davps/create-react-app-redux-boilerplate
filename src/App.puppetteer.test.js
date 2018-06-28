@@ -5,7 +5,7 @@
 import puppeteer from 'puppeteer';
 import { setup, teardownDevServer } from 'jest-dev-server';
 
-const timeout = 60000;
+const timeout = 90000;
 const url = 'http://localhost:3006/';
 
 describe('e2e tests', () => {
