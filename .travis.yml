@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- 8
+cache:
+  directories:
+  - node_modules
+script:
+- npm run build
+- npm test -- --coverage --coverageReporters=text-lcov | ./node_modules/coveralls/bin/coveralls.js
+- npm run deploy-storybook -- --ci
+deploy:
+  provider: heroku
+  app: create-react-app-redux-boilerplate-app
+  api_key:
+    secure: "m02CZiNOVsLK1WiDPcQGpEMs8zIQc6eZLRK/hnJ7xWSloijCPhv0aakiVSh+GxnwXBNjUbIRWIbbmqijYcpzvI77nhYPqNlBIVqgXlz5t5uyW3kK/vIOmmY+jzaTRuGaDaEp6IkQ5dJdvsJNQux+yPc9+V3zne6A84QrTFCPKv8Enx97X3EXXoauTW15riH7VVEQBPuAek/gzBmzHF1Ta0Ali3QIyHE5JJkdGXgM4DpgfH0c1SrsZjUclnRE4R1pdq7Csu+irtVnysiAYJVADqLyCVVnsukZwWL9xemScjtkUZWgNll2QUX26venza87hjfaFJiTNQqgEPrr30h2pDLYs5BlmlQ0gNxTArPvorLg4vFWCmkRqW4dgw5o2eyefl6AtodekOpexVM18DQ9T6qq2j52egAh644VeK6wJYxJ7io5rRks7YZ6QVsemHGPLuV3lCKGoL39kjD8coWLZ6doNv4jOy0w4xa0ZrFsGMkEgdWZaKGFOCVnD+A8aMIS7MlstRV/qktksXRCZJyXXYYbvn/e9kN8TR0pXBjI/5OagYCW7mp0t3TkpeW3EIQ7o+yHUiaQ+A4yaCKTSDQkY7JNLQdcqcrTdiv0+7iht1tyluml4nRxQSRFR68hP/gaNygBHx+xITkfGqBaigTc1xgE3qZw0YdVrnH/6ocuodw="

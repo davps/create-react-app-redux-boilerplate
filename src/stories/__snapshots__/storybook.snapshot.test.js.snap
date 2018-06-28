@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Basic Basic with no items 1`] = `
+<div
+  className="sc-bdVaJa gPJpEA"
+>
+  <button
+    className="my-button sc-bwzfXH IEEeW"
+    onClick={[Function]}
+    type="button"
+  >
+    Add item
+  </button>
+  <ul />
+</div>
+`;
+
+exports[`Storyshots Basic Basic with one item 1`] = `
+<div
+  className="sc-bdVaJa gPJpEA"
+>
+  <button
+    className="my-button sc-bwzfXH IEEeW"
+    onClick={[Function]}
+    type="button"
+  >
+    Add item
+  </button>
+  <ul>
+    <li>
+      Item 1
+    </li>
+    <li>
+      Item 2
+    </li>
+    <li>
+      Item 3
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Storyshots Full, live app It is running here 1`] = `
+<div
+  className="sc-bdVaJa gPJpEA"
+>
+  <button
+    className="my-button sc-bwzfXH IEEeW"
+    onClick={[Function]}
+    type="button"
+  >
+    Add item
+  </button>
+  <ul />
+</div>
+`;
