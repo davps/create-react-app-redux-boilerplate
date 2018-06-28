@@ -1,7 +1,6 @@
 {
   "name": "create-react-app-redux-boilerplate",
   "version": "0.1.0",
-  "homepage": "http://davps.github.io/create-react-app-redux-boilerplate",
   "private": true,
   "dependencies": {
     "immutable": "^3.8.2",
