@@ -86,6 +86,8 @@ Ensure requirements are met, then execute the following in a terminal.
 
 - Setup the Github env variables on Travis CI. Go to
   https://travis-ci.org/davps/$REPOSITORY_NAME and add the env variable `GH_TOKEN`
+  More instructions here:
+  https://github.com/storybooks/storybook-deployer#deploying-storybook-as-part-of-a-ci-service
 
 Here are the instructions to create your Github token
 https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/
