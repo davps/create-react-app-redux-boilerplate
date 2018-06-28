@@ -84,6 +84,12 @@ Ensure requirements are met, then execute the following in a terminal.
   heroku create $HEROKU_APP_NAME --buildpack https://github.com/mars/create-react-app-buildpack.git
 ```
 
+- Setup the Github env variables on Travis CI. Go to
+  https://travis-ci.org/davps/$REPOSITORY_NAME and add the env variable `GH_TOKEN`
+
+Here are the instructions to create your Github token
+https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/
+
 - Setup encription keys for travis
 
 If travis is not installed yet, install it. For example, you can use these commands on a fresh installation of Ubuntu Server 16.04 LTS.
