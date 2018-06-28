@@ -11,7 +11,7 @@ It is ready to use with TDD with the basic setup for unit, integration and end t
 
 ## Live demo
 
-[View the live demo on Heroku](https://create-react-app-redux-boilerplate-david.herokuapp.com/) or the [individual UI components](https://davps.github.io/create-react-app-redux-boilerplate) of my Storybook on Github Pages.
+[View the live demo on Heroku](https://react-redux-boilerplate-101.herokuapp.com/) or the [individual UI components](https://davps.github.io/create-react-app-redux-boilerplate) of my Storybook on Github Pages.
 
 ## Tech stack
 
